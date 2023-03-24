@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <a href="/">Home</a>
       <br />
-      <a href='/'>Texto</a>
+      <a href='/textTools'>Texto</a>
       <br />
       <a href="/">Numeros</a>
     </div>

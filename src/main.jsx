@@ -1,13 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './componentes/App'
-import Header from './componentes/Header'
-import TextTools from './componentes/TextTools'
 import './index.css'
+import Header from './componentes/Header'
+import Routes from './MainRoutes'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <Header />
-    <TextTools />
+    <Router>
+      <Routes />
+    </Router>
   </React.StrictMode>,
 )
